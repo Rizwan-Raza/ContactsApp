@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Contacts</string>
+
+    <!-- Label for overflow menu option that inserts fake contact data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all contact data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Contacts</string>
+
+    <!-- Title for the activity to add a new contact [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_contact">Add a Contact</string>
+
+    <!-- Title for the activity to edit an existing contact [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_contact">Edit Contact</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current contact [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_gender">Gender</string>
+
+    <!-- Label for contact information in the editor [CHAR LIMIT=30] -->
+    <string name="category_contact">Contact</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_contact_name">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_contact_email">Email</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_contact_number">Number</string>
+
+    <!-- prefix for number of the contact (country code) [CHAR LIMIT=5] -->
+    <string name="number_prefix">+91</string>
+
+    <!-- Label for dropdown menu option if the contact's gender is unknown [CHAR LIMIT=20] -->
+    <string name="gender_unknown">Unknown</string>
+
+    <!-- Label for dropdown menu option if the contact is male [CHAR LIMIT=20] -->
+    <string name="gender_male">Male</string>
+
+    <!-- Label for dropdown menu option if the contact is female [CHAR LIMIT=20] -->
+    <string name="gender_female">Female</string>
+
+    <!-- Toast message in editor when new contact has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_contact_successful">Contact saved</string>
+
+    <!-- Toast message in editor when new contact has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_contact_failed">Error with saving contact</string>
+
+    <!-- Title text for the empty view, which describes the empty human with nature image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">It\'s a bit lonely here…</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a contact [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a contact</string>
+
+    <!-- Toast message in editor when current pet was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_contact_successful">Contact updated</string>
+
+    <!-- Toast message in editor when current pet has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_contact_failed">Error with updating contact</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current contact [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <string name="unknown_email">Unknown Email</string>
+
+    <!-- Toast message in editor when current contact was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_contact_successful">Contact deleted</string>
+
+    <!-- Toast message in editor when current contact has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_contact_failed">Error with deleting contact</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current contact [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this contact?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current contact [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current contact [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+</resources>
