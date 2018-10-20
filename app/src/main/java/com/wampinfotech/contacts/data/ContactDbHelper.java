@@ -22,7 +22,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * Database helper for Pets app. Manages database creation and version management.
  */
-public class ContactDbHelper extends SQLiteOpenHelper {
+class ContactDbHelper extends SQLiteOpenHelper {
 
 //    public static final String LOG_TAG = ContactDbHelper.class.getSimpleName();
 

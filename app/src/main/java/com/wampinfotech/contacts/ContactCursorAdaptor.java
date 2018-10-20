@@ -16,16 +16,15 @@ import com.wampinfotech.contacts.data.ContactContract.ContactEntry;
  * that uses a {@link Cursor} of pet data as its data source. This adapter knows
  * how to create list items for each row of pet data in the {@link Cursor}.
  */
-public class ContactCursorAdaptor extends CursorAdapter {
+class ContactCursorAdaptor extends CursorAdapter {
 
     /**
      * Constructs a new {@link ContactCursorAdaptor}.
+     *  @param context The context
      *
-     * @param context The context
-     * @param c       The cursor from which to get the data.
      */
-    ContactCursorAdaptor(Context context, Cursor c) {
-        super(context, c, 0 /* flags */);
+    ContactCursorAdaptor(Context context) {
+        super(context, null, 0 /* flags */);
     }
 
     /**

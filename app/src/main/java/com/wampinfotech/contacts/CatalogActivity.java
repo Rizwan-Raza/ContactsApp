@@ -44,7 +44,7 @@ public class CatalogActivity extends AppCompatActivity implements LoaderManager.
 
     private static final int CONTACT_LOADER = 0;
 
-    ContactCursorAdaptor _CursorAdaptor;
+    private ContactCursorAdaptor _CursorAdaptor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,7 +70,7 @@ public class CatalogActivity extends AppCompatActivity implements LoaderManager.
 
         // Setup an Adaptor to create a list item for each row of contact data in the Cursor
         // There is no contact data yet (until the loader finished) so pass in null for the Cursor.
-        _CursorAdaptor = new ContactCursorAdaptor(this, null);
+        _CursorAdaptor = new ContactCursorAdaptor(this);
         contactListView.setAdapter(_CursorAdaptor);
 
         // Setup item click listener
@@ -116,7 +116,7 @@ public class CatalogActivity extends AppCompatActivity implements LoaderManager.
         // Use the {@link ContactEntry#CONTENT_URI} to indicate that we want to insert
         // into the pets database table.
         // Receive the new content URI that will allow us to access Toto's data in the future.
-        Uri newUri = getContentResolver().insert(ContactEntry.CONTENT_URI, values);
+        getContentResolver().insert(ContactEntry.CONTENT_URI, values);
     }
 
     @Override

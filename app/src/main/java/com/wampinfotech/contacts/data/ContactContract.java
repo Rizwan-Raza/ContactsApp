@@ -35,7 +35,7 @@ public final class ContactContract {
      * Use CONTENT_AUTHORITY to create the base of all URI's which apps will use to contact
      * the content provider.
      */
-    public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
+    private static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
     /**
      * Possible path (appended to base content URI for possible URI's)
      * For instance, content://com.example.android.pets/pets/ is a valid path for
@@ -120,7 +120,7 @@ public final class ContactContract {
          * Returns whether or not the given gender is {@link GENDER#UNKNOWN}, {@link GENDER#MALE},
          * or {@link GENDER#FEMALE}.
          */
-        public static boolean isValidGender(int gender) {
+        static boolean isValidGender(int gender) {
             return gender == GENDER.UNKNOWN.ordinal() || gender == GENDER.MALE.ordinal() || gender == GENDER.FEMALE.ordinal();
         }
 

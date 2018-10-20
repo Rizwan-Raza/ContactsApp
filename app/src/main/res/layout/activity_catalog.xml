@@ -22,6 +22,7 @@
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:layout_centerHorizontal="true"
+            android:contentDescription="@string/empty_image"
             android:src="@drawable/ic_nature_people_white_160dp" />
 
         <TextView

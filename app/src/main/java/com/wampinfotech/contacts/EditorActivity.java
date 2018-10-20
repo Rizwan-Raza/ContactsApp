@@ -74,7 +74,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
      */
     private ContactEntry.GENDER _Gender = ContactEntry.GENDER.UNKNOWN;
 
-    private View.OnTouchListener _TouchListener = new View.OnTouchListener() {
+    private final View.OnTouchListener _TouchListener = new View.OnTouchListener() {
         @Override
         public boolean onTouch(View view, MotionEvent motionEvent) {
             _ContactHasChanged = true;
